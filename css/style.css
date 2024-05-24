@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: "Alegreya Sans", sans-serif;
+}
+h1 ,h2{
+    font-family: "Alegreya", serif;
+}
+ul{
+    padding: 0;
+}
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: center;
+     color: white;
+     
+}
+.content h1{
+    font-size: 76px;
+    margin-block: 22px;
+}
+.content > p{
+font-size: 22px;
+}
+.content:nth-child(2) {
+    font-size: 24px;
+    line-height: 1.8;
+}
+.content button{
+    padding: 20px;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 15px 28px;
+    border-radius: 5px;
+    margin-inline: 5px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+ .content .btn2{
+    border: 2px solid white;
+ }
+ .content .btn1{
+    border: 2px solid transparent;
+    background-color: #8e7754;
+ }
+ .btn1:hover{
+    background-color: white;
+    color: black;
+ }
+ .btn2:hover{
+    color: black;
+    background-color: white;
+ }
+ /* ---------------- about--------------------- */
+ .about-container{
+    background-color: #f8f8f8;
+ }
+ .about{
+    width: 80%;
+    margin: 75px auto;
+ }
+ .about-img{
+    width: 50%;
+    display: inline-block;
+ }
+ .about img{
+    width: 100%;
+ }
+ .about-content{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    padding-block: 40px;
+ }
+
+   
+ li{
+    list-style: none;
+ }
+
+ .about-content li img{
+   width: 10%;
+   border: 1px solid rgba(0, 0, 0,0.1);
+   border-radius: 50%;
+ }
+ .about-content span {
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 20px;
+ }
+ .about-content li{
+    margin-block: 10px;
+    color: #686868;
+ }
+ .about-content p{
+    line-height: 1.8;
+    padding-block:10px 20px;
+    color: #686868;
+ }
+ @media screen and (max-width: 900px) {
+    .about-img{
+        width: 100%;
+        display: block;
+     }
+    
+    .about-content{
+        width: 100%;
+        display: block;
+        margin-left: 0;
+    }
+    
+ }
+  /* ----------------location--------------------- */
+  /* ----------------baking--------------------- */
+  .our-baking{
+    text-align: center;
+    padding: 0px;
+  }
+  .our-baking p ,.our-baking h3{
+    margin: 15px;
+    line-height: 1.6;
+  }
+  .clrfix{
+    clear: both;
+  }
+  .card{
+    float: left;
+    width: calc(100%/3 );
+    margin-block: 60px;
+}
+  .card img{
+    width: 90%;
+  }
+  @media screen and (max-width: 900px) {
+    .card{
+        width: 100%;
+        margin-block: 30px;
+    }
+  }
+   /* ----------------map--------------------- */
+   .map{
+    margin-block: 30px
+   }
+   .map img{
+    background-color: #8e7754;
+    border-radius: 50%
+   }
+   .map span{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0 10px;
+   }
+   .contact-info{
+    width:40%;
+    float: left;
+    margin-left: 70px;
+   }
+   .contact-info li{
+    margin-block: 10px;
+   }
+   .map-info{
+    width:40%;
+    float: right;
+    margin-right: 70px;
+   }
+   .clrfix{
+    clear: both;
+   }
+   iframe{
+    width: 100%;
+   }
+  @media screen and (max-width: 900px) {
+       .contact-info{
+        width: 80%;
+        margin-bottom: 50px;
+       }
+       .map-info{
+       width: 80%;
+       margin-inline:50px;
+       }
+     
+  }
+   /* ----------------duration--------------------- */
+.duration{
+    background-color: rgb(64, 61, 56);
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding:60px 0px 45px 45px;
+}
+.container li{
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 15px;
+    color: #969696;
+}
+.container p{
+    color: #969696;
+    line-height: 1.8;
+}
+
+.container h4{
+    color: white;
+}
+
+.container span{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 20px;
+}
+.cart4 .first-span{
+    padding-left: 40px;
+    margin-top: -50px;
+}
+
+.cart1{
+    float: left;
+    width: 21%;
+    margin-inline: 15px;
+}
+.cart2{
+    float: left;
+    width: 21%;
+    margin-inline: 15px;
+}
+.cart3{
+    float: left;
+    width: 21%;
+    margin-inline: 15px;
+}
+
+
+.cart4{
+    float: left;
+    width: 25%;
+    margin-inline: 15px;  
+    background-image:linear-gradient(rgba(64, 61, 56, 0.8) , rgba(64, 61, 56, 0.8)) , url(images/contact-details-map.png);
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width: 900px) {
+
+    .cart1{
+        width: 80%;
+    }
+    .cart2{
+        width: 80%;
+    }
+    .cart3{
+        width: 80%;
+    }
+    .cart4{
+        width: 80%;
+    }
+}
+
